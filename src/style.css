@@ -1,0 +1,102 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+    padding: 10px;
+      text-align: center;
+      }
+
+      .title {
+        font-size: 22px;
+          font-weight: bold;
+          }
+
+          .invoice-box {
+            max-width: 90%;
+              margin: auto;
+                padding: 15px;
+                  border: 1px solid black;
+                    border-radius: 8px;
+                      background-color: #fff;
+                        font-size: 14px;
+                        }
+
+                        .company-title {
+                          text-align: center;
+                            font-weight: bold;
+                            }
+
+                            .company-info {
+                              text-align: center;
+                                font-size: 12px;
+                                }
+
+                                .section {
+                                  margin-top: 10px;
+                                    margin-bottom: 10px;
+                                    }
+
+                                    .table {
+                                      width: 100%;
+                                        border-collapse: collapse;
+                                          text-align: left;
+                                          }
+
+                                          .table th, .table td {
+                                            border: 1px solid black;
+                                              padding: 8px;
+                                              }
+
+                                              .flex-container {
+                                                display: flex;
+                                                  flex-direction: column;
+                                                    gap: 10px;
+                                                      margin-top: 10px;
+                                                      }
+
+                                                      .flex-item {
+                                                        flex: 1;
+                                                          border: 1px solid black;
+                                                            padding: 10px;
+                                                              border-radius: 5px;
+                                                              }
+
+                                                              .total-amount {
+                                                                text-align: right;
+                                                                  font-weight: bold;
+                                                                    font-size: 16px;
+                                                                      margin-right: 10px;
+                                                                      }
+
+                                                                      .button {
+                                                                        margin-top: 15px;
+                                                                          padding: 10px 15px;
+                                                                            background-color: #28a745;
+                                                                              color: #fff;
+                                                                                border: none;
+                                                                                  cursor: pointer;
+                                                                                    font-size: 14px;
+                                                                                    }
+
+                                                                                    .button:hover {
+                                                                                      background-color: #218838;
+                                                                                      }
+
+                                                                                      /* Responsive Styles */
+                                                                                      @media (max-width: 768px) {
+                                                                                        .invoice-box {
+                                                                                            width: 100%;
+                                                                                                padding: 10px;
+                                                                                                  }
+
+                                                                                                    .table {
+                                                                                                        font-size: 12px;
+                                                                                                          }
+
+                                                                                                            .button {
+                                                                                                                width: 100%;
+                                                                                                                  }
+                                                                                                                  }
+                                                                                                                  
+}
